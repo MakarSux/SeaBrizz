@@ -1,0 +1,199 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="./css/style.css")
+    body
+        include ./modules/header.pug
+        .content
+            h1.content__section-name Наша продукция
+            .content__filter
+                .content__filter-selections
+                    p Фильтры
+                    button.filter-selection Рыба
+                    button.filter-selection Водоросли
+                    button.filter-selection Крабы
+                    button.filter-selection Другое
+
+                .content__filter-search
+                    input(type="text")
+                    input(type="submit", value="Поиск")
+            .content__products
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="121" height="35" viewBox="0 0 121 35" fill="none">
+                            <path d="M0 0H111C116.523 0 121 4.47715 121 10V25C121 30.5228 116.523 35 111 35H0V0Z" fill="#52FF00"/>
+                        </svg>
+                        p хит продаж
+                    img(src="./img/prod_fish-one.png", alt="").content__product-image
+                    p.content__product-name Филе лосося
+                    p.content__product-price Цена: 1200 р. (1 кг)
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="89" height="35" viewBox="0 0 89 35" fill="none">
+                            <path d="M0 0H79C84.5228 0 89 4.47715 89 10V25C89 30.5228 84.5228 35 79 35H0V0Z" fill="#FFE600"/>
+                        </svg>
+                        p Скидка
+                    img(src="./img/prod_calmar.png", alt="").content__product-image
+                    p.content__product-name Кальмар (кольца)
+                    p.content__product-price Цена: <span>700 р.</span> 500 р.
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="152" height="35" viewBox="0 0 152 35" fill="none">
+                            <path d="M0 0H142C147.523 0 152 4.47715 152 10V25C152 30.5228 147.523 35 142 35H0V0Z" fill="#FF0F00" fill-opacity="0.82"/>
+                        </svg>
+                        p Осталось мало!
+                    img(src="./img/prod_kamchat-crab.png", alt="").content__product-image
+                    p.content__product-name Камчатский Краб
+                    p.content__product-price Цена: 2500 р. шт.
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="121" height="35" viewBox="0 0 121 35" fill="none">
+                            <path d="M0 0H111C116.523 0 121 4.47715 121 10V25C121 30.5228 116.523 35 111 35H0V0Z" fill="#52FF00"/>
+                        </svg>
+                        p хит продаж
+                    img(src="./img/prod_fish-one.png", alt="").content__product-image
+                    p.content__product-name Филе лосося
+                    p.content__product-price Цена: 1200 р. (1 кг)
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="89" height="35" viewBox="0 0 89 35" fill="none">
+                            <path d="M0 0H79C84.5228 0 89 4.47715 89 10V25C89 30.5228 84.5228 35 79 35H0V0Z" fill="#FFE600"/>
+                        </svg>
+                        p Скидка
+                    img(src="./img/prod_calmar.png", alt="").content__product-image
+                    p.content__product-name Кальмар (кольца)
+                    p.content__product-price Цена: <span>700 р.</span> 500 р.
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="152" height="35" viewBox="0 0 152 35" fill="none">
+                            <path d="M0 0H142C147.523 0 152 4.47715 152 10V25C152 30.5228 147.523 35 142 35H0V0Z" fill="#FF0F00" fill-opacity="0.82"/>
+                        </svg>
+                        p Осталось мало!
+                    img(src="./img/prod_kamchat-crab.png", alt="").content__product-image
+                    p.content__product-name Камчатский Краб
+                    p.content__product-price Цена: 2500 р. шт.
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="121" height="35" viewBox="0 0 121 35" fill="none">
+                            <path d="M0 0H111C116.523 0 121 4.47715 121 10V25C121 30.5228 116.523 35 111 35H0V0Z" fill="#52FF00"/>
+                        </svg>
+                        p хит продаж
+                    img(src="./img/prod_fish-one.png", alt="").content__product-image
+                    p.content__product-name Филе лосося
+                    p.content__product-price Цена: 1200 р. (1 кг)
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="89" height="35" viewBox="0 0 89 35" fill="none">
+                            <path d="M0 0H79C84.5228 0 89 4.47715 89 10V25C89 30.5228 84.5228 35 79 35H0V0Z" fill="#FFE600"/>
+                        </svg>
+                        p Скидка
+                    img(src="./img/prod_calmar.png", alt="").content__product-image
+                    p.content__product-name Кальмар (кольца)
+                    p.content__product-price Цена: <span>700 р.</span> 500 р.
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="152" height="35" viewBox="0 0 152 35" fill="none">
+                            <path d="M0 0H142C147.523 0 152 4.47715 152 10V25C152 30.5228 147.523 35 142 35H0V0Z" fill="#FF0F00" fill-opacity="0.82"/>
+                        </svg>
+                        p Осталось мало!
+                    img(src="./img/prod_kamchat-crab.png", alt="").content__product-image
+                    p.content__product-name Камчатский Краб
+                    p.content__product-price Цена: 2500 р. шт.
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="121" height="35" viewBox="0 0 121 35" fill="none">
+                            <path d="M0 0H111C116.523 0 121 4.47715 121 10V25C121 30.5228 116.523 35 111 35H0V0Z" fill="#52FF00"/>
+                        </svg>
+                        p хит продаж
+                    img(src="./img/prod_fish-one.png", alt="").content__product-image
+                    p.content__product-name Филе лосося
+                    p.content__product-price Цена: 1200 р. (1 кг)
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="89" height="35" viewBox="0 0 89 35" fill="none">
+                            <path d="M0 0H79C84.5228 0 89 4.47715 89 10V25C89 30.5228 84.5228 35 79 35H0V0Z" fill="#FFE600"/>
+                        </svg>
+                        p Скидка
+                    img(src="./img/prod_calmar.png", alt="").content__product-image
+                    p.content__product-name Кальмар (кольца)
+                    p.content__product-price Цена: <span>700 р.</span> 500 р.
+                .content__product
+                    .content__product-type
+                        <svg xmlns="http://www.w3.org/2000/svg" width="152" height="35" viewBox="0 0 152 35" fill="none">
+                            <path d="M0 0H142C147.523 0 152 4.47715 152 10V25C152 30.5228 147.523 35 142 35H0V0Z" fill="#FF0F00" fill-opacity="0.82"/>
+                        </svg>
+                        p Осталось мало!
+                    img(src="./img/prod_kamchat-crab.png", alt="").content__product-image
+                    p.content__product-name Камчатский Краб
+                    p.content__product-price Цена: 2500 р. шт.
+            .graphic-element
+                .graphic-element__left
+                img(src="./img/logo_seaBriz.png", alt="")
+                .graphic-element__right
+            h1.content__section-name Выбор покупателей
+            .content__buyers-choices
+                .content__buyers-choice
+                    .bg__buyers-choice
+                        <svg xmlns="http://www.w3.org/2000/svg" width="710" height="268" viewBox="0 0 710 268" fill="none">
+                            <path d="M0 0H710L514 72L0 268V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-480px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="454" height="225" viewBox="0 0 454 225" fill="none">
+                            <path d="M0 0H453.022L327.963 60.4478L0 225V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-320px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="299" height="275" viewBox="0 0 299 275" fill="none">
+                            <path d="M0 0H298.579L216.155 73.8806L0 275V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    p Икра красная
+                    img(src="./img/prod_caviar.png", alt="")
+                .content__buyers-choice
+                    .bg__buyers-choice
+                        <svg xmlns="http://www.w3.org/2000/svg" width="710" height="268" viewBox="0 0 710 268" fill="none">
+                            <path d="M0 0H710L514 72L0 268V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-480px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="454" height="225" viewBox="0 0 454 225" fill="none">
+                            <path d="M0 0H453.022L327.963 60.4478L0 225V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-320px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="299" height="275" viewBox="0 0 299 275" fill="none">
+                            <path d="M0 0H298.579L216.155 73.8806L0 275V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    p Икра красная
+                    img(src="./img/prod_caviar.png", alt="")
+                .content__buyers-choice
+                    .bg__buyers-choice
+                        <svg xmlns="http://www.w3.org/2000/svg" width="710" height="268" viewBox="0 0 710 268" fill="none">
+                            <path d="M0 0H710L514 72L0 268V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-480px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="454" height="225" viewBox="0 0 454 225" fill="none">
+                            <path d="M0 0H453.022L327.963 60.4478L0 225V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-320px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="299" height="275" viewBox="0 0 299 275" fill="none">
+                            <path d="M0 0H298.579L216.155 73.8806L0 275V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    p Икра красная
+                    img(src="./img/prod_caviar.png", alt="")
+                .content__buyers-choice
+                    .bg__buyers-choice
+                        <svg xmlns="http://www.w3.org/2000/svg" width="710" height="268" viewBox="0 0 710 268" fill="none">
+                            <path d="M0 0H710L514 72L0 268V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-480px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="454" height="225" viewBox="0 0 454 225" fill="none">
+                            <path d="M0 0H453.022L327.963 60.4478L0 225V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    .bg__buyers-choice-320px
+                        <svg xmlns="http://www.w3.org/2000/svg" width="299" height="275" viewBox="0 0 299 275" fill="none">
+                            <path d="M0 0H298.579L216.155 73.8806L0 275V0Z" fill="#0085FF" fill-opacity="0.8"/>
+                        </svg>
+                    p Икра красная
+                    img(src="./img/prod_caviar.png", alt="")
+
+        include ./modules/footer.pug

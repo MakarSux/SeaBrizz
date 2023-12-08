@@ -1,0 +1,71 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="./css/style.css")
+    body
+        include ./modules/header.pug
+        .content 
+            .content__top-banner
+                img(src="./img/top-banner.png", alt="")
+                .content__top-banner_text
+                    p Добро пожаловать на наш сайт!
+                    p Здесь вы найдете:
+                    ul 
+                        li График и часы работы нашего магазина
+                        li Цены на предоставляемые товары и услуги
+                        li Схему проезда
+                        li Контактную информацию
+            .graphic-element
+                .graphic-element__left
+                img(src="./img/logo_seaBriz.png", alt="")
+                .graphic-element__right
+            .content__work-schedule
+                .content__work-schedule__top
+                    img(src="./img/bg_work-schedule.png", alt="")
+                    h1 График работы
+                    .work-schedule__signs
+                        div
+                            h2 Будни
+                            ul
+                                li
+                                    p Пн
+                                    p 9:00 - 22:00
+                                li
+                                    p Вт
+                                    p 9:00 - 22:00
+                                li
+                                    p Ср
+                                    p 9:00 - 22:00
+                                li
+                                    p Чт
+                                    p 9:00 - 22:00
+                                li
+                                    p Пт
+                                    p 11:00 - 00:00
+                        div
+                            h2 Выходные и праздники
+                            ul
+                                li
+                                    p Сб
+                                    p 10:00 - 20:00
+                                li
+                                    p Вс
+                                    p 10:00 - 20:00
+                .content__work-schedule__bottom
+                    img(src="./img/bg_banner-bottom.png", alt="")
+            .content__posters
+                .content__poster
+                    img(src="./img/bg_poster1.png", alt="")
+                    p ТОЛЬКО свежие продукты!
+                .content__poster
+                    img(src="./img/bg_poster2.png", alt="")
+                    p САМЫЕ низкие цены!
+                .content__poster
+                    img(src="./img/bg_poster3.png", alt="")
+                    p ВСЕГДА открыты для вас!
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Add50ef78788c75330c12314a7479474dfd077cb75059d90507f67eb779e817f7&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
+
+        include ./modules/footer.pug
